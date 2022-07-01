@@ -1,0 +1,44 @@
+.content-container {
+  background: rgb(54, 46, 46);
+  background: linear-gradient(
+    180deg,
+    rgba(54, 46, 46, 1) 0%,
+    rgba(38, 44, 75, 1) 35%,
+    rgba(32, 32, 75, 1) 100%
+  );
+  width: 60%;
+  border-radius: 0 20px 20px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.picker {
+  background-color: rgba(255, 255, 255, 0.496);
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mybutton{
+  width: 100px;
+}
+
+.joker-container{
+  background-color: rgba(255, 255, 255, 0.088);
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px; 
+}
+
+.language-joke{
+  margin: 10px;
+}
